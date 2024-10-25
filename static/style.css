@@ -129,6 +129,12 @@ h1, h2, h4 {
     color: #1261f386; 
 }
 
+.fade-in {
+    opacity: 0; /* Comienza invisible */
+    transition: opacity 0.5s ease-in-out; /* Transición suave */
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
